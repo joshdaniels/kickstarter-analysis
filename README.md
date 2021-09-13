@@ -31,15 +31,15 @@ Next, I needed to count the amount of Successfull, Failed and canceled. Using th
 
 For example, if the campaign had a goal that was less than 1000 and also was successful. I also added a criteria in all functions to only count if the subcategory of the campaign was "Plays". as an example, The code looked like the following:
 
-  =COUNTIFS(Kickstarter!D:D,">=10000",  Kickstarter!F:F, "successful",Kickstarter!R:R, "plays",Kickstarter!D:D,"<=14999", Kickstarter!F:F, "successful",Kickstarter!R:R, "plays")
+ ``` =COUNTIFS(Kickstarter!D:D,">=10000",  Kickstarter!F:F, "successful",Kickstarter!R:R, "plays",Kickstarter!D:D,"<=14999", Kickstarter!F:F, "successful",Kickstarter!R:R, "plays") ```
 
 Then once the right count was in the right cells, I created an additional column named "Total Projects". I used the SUM function to add all of the outcomes together for a certain goal group. As an example, The code looked like the following:
 
-  =SUM(C5,D5,E5)
+```  =SUM(C5,D5,E5) ```
 
 Next, For the percentages columns, I divided the number of each outcome by the total projects in each goal group  and multiplied that by 100. As an example, The code looked like the following:
 
-  =C5/F5
+```  =C5/F5 ```
 
 I also formatted the cells in the percentage columns to be percentages with 0 decimal points.
 
