@@ -18,7 +18,9 @@ Next, I created a Pivot Chart from the Pivot Table and changed the chart type to
 
 
 
-{INSERT CHART IMAGE}
+![Chart 1](/kickstarter-analysis/Outcomes_vs_Goals_v2.png)
+
+
 
 Above, You can see the chart that was created from the Pivot table.
 
@@ -45,7 +47,7 @@ Once the sheet was complete I created a Pivot table with the goal groups listed 
 
 Lastly I used the Pivot Table to create a Line graph displaying the Goal Thresholds data in dollars on the x-axis and the number of outcomes in percentages on the y-axis.
 
-{INSERT CHART IMAGE}
+![ chart image 2](/kickstarter-analysis/Theater_Outcomes_vs_Launch.png)
 
 Above, You can see the chart that was created from the Pivot table.
 
